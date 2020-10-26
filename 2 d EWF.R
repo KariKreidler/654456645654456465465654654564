@@ -22,6 +22,8 @@ fit_summ = summary(fit)
 
 abline(fit)
 
+#c
+
 #train_MSE
 
 train_MSE = mean(fit_summ$residuals^2)
